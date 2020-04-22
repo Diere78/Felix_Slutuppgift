@@ -4,7 +4,7 @@ import arcade
 import os
 import settings
 from typing import cast
-from object_classes import TurningCharacter, BulletSprite, WallSprite, CharacterSprite
+from object_classes import TurningSprite, BulletSprite, WallSprite, CharacterSprite
 
 
 class Game(arcade.Window):

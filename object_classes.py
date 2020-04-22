@@ -5,7 +5,7 @@ import os
 import settings
 
 
-class TurningCharacter(arcade.Sprite):
+class TurningSprite(arcade.Sprite):
     "Class that turns the sprite to the direction it is moving in"
     def update(self):
         super().update()
