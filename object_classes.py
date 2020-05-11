@@ -26,10 +26,8 @@ class CharacterSprite(arcade.Sprite):
     def respawn(self):
 
         self.respawning = 1
-        #Kommer ändras senare så de två spelarna inte spawnar på samma plats.
-        self.center_x = settings.SCREEN_WIDTH / 2
-        self.center_y = settings.SCREEN_HEIGHT / 2
         self.angle = 0
+        
     def update(self):
         """
         Update our position and other particulars.
