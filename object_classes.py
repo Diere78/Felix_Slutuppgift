@@ -26,9 +26,6 @@ class CharacterSprite(arcade.Sprite):
         self.angle = 0
 
     def update(self):
-        """
-        Update our position and other particulars.
-        """
         if self.respawning:
             self.respawning += 1
             self.alpha = self.respawning
